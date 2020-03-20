@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, rgba(206, 193, 210, 0.7), rgba(74,77,106,0.7)), url('./assets/pencils.jpg');
+    background-size: contain;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+.App-container {
+    width: 300px;
+    height: 535px;
+    background-image: linear-gradient(to bottom right, rgba(168, 114, 146, 0.7), rgba(172,174,211,0.7)), url('./assets/white_texture.jpg');
+    background-size: cover;
+    background-position: 50% 0;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+}
